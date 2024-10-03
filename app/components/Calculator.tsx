@@ -2,9 +2,9 @@
 
 import React from 'react';
 import { useTipCalculator } from '../hooks/useTipCalculator';
-import Image from 'next/image';
-import dolaricon from '/dolaricon.svg';
-import peopleicon from '/peopleicon.svg';
+// import Image from 'next/image';
+// import dolaricon from '/dolaricon.svg';
+// import peopleicon from '/peopleicon.svg';
 
 const Calculator: React.FC = () => {
   const {
@@ -32,9 +32,9 @@ const Calculator: React.FC = () => {
         </header>
         <label htmlFor="bill-input" className="block text-text-color text-2xl">Bill</label>
         <div className="relative flex items-center">
-          <span className="absolute left-3">
+          {/* <span className="absolute left-3">
             <Image src={dolaricon} alt="Dollar Icon" width={30} height={30} />
-          </span>
+          </span> */}
           <input
             type="number"
             id="bill-input"
@@ -80,9 +80,9 @@ const Calculator: React.FC = () => {
         </header>
         <label htmlFor="people-input" className="block text-text-color text-2xl">Number of People</label>
         <div className="relative flex items-center">
-          <span className="absolute left-3">
+          {/* <span className="absolute left-3">
             <Image src={peopleicon} alt="People Icon" width={30} height={30} />
-          </span>
+          </span> */}
           <input
             type="number"
             id="people-input"
