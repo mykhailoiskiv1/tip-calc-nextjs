@@ -3,8 +3,8 @@
 import React from 'react';
 import { useTipCalculator } from '../hooks/useTipCalculator';
 import Image from 'next/image';
-import dolaricon from '../public/dolaricon.svg';
-import peopleicon from '../public/peopleicon.svg';
+import dolaricon from '/dolaricon.svg';
+import peopleicon from '/peopleicon.svg';
 
 const Calculator: React.FC = () => {
   const {
